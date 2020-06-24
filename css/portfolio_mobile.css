@@ -1,8 +1,7 @@
 @media screen and (max-width: 1080px){
-    body{
-        background-color: #00ffff;
+    img.navimg{
+        height: 1100px;
+        width: 100%;
+        opacity: 0.6;
     }
-    /*img{
-        
-    }*/
 }
