@@ -37,7 +37,7 @@
                                                                 /*body image*/
 
 img.navimg{
-    height: 1100px;
+    height: 1200px;
     width: 100%;
     opacity: 0.5;
 }                                           /*              text              */
@@ -45,7 +45,7 @@ div.txt_11{
     font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     color: #000000;
     position: absolute;
-    top: 90%;
+    top: 65%;
     font-size: 40px;
     text-align: center;
     width: 100%;
@@ -54,7 +54,7 @@ div.txt_12{
     font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     color: #000000;
     position: absolute;
-    top: 100%;
+    top: 75%;
     font-size: 20px;
     text-align: center;
     width: 100%;
