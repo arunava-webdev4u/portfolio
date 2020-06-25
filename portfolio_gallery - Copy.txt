@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Arunava Das | Portfolio | Contact Me</title>
+    <title>Arunava Das | Portfolio | Gallery</title>
     <!--Link to Font Awsome CDN-Content Delivery Network-->
     <!--sample kit-->
-    <script src="https://kit.fontawesome.com/5c42a32558.js" crossorigin="anonymous"></script>
+    <!--<script src="https://kit.fontawesome.com/0874b90ab9.js" crossorigin="anonymous"></script>-->
 
     <!--google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
@@ -14,7 +14,6 @@
     <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-    
     
     <!--style sheet info-->
     <meta name=‘viewport’ content="width=devicewidth, initial-scale=1, maximum-scale=1">
@@ -36,20 +35,13 @@
         <div class="topnav">
             <a href="portfolio.html">Home</a>
             <a href="portfolio_aboutme.html">About me</a>
-            <a href="portfolio_gallery.html">Gallery</a>
-            <a class="active" href="portfolio_contact.html">Contact</a>
+            <a class="active" href="portfolio_gallery.html">Gallery</a>
+            <a href="portfolio_contact.html">Contact</a>
         </div>
     </nav>
-    <div id="outer-div">
-        <h2>You can contact through the given links</h2>
-        <div id="inner-div">
-            <a href="https://www.facebook.com/profile.php?id=100014498615078" target="_blank"><i class="fab fa-facebook fa-8x"></i></a>
-            <div class="icon_gap"></div>
-            <a href="https://www.instagram.com/arunava52486/" target="_blank"><i class="fab fa-instagram fa-8x"></i></a>
-            <div class="icon_gap"></div>
-            <a href="https://www.linkedin.com/in/arunava-das-a50150184/" target="_blank"><i class="fab fa-linkedin fa-8x"></i></a>
-        </div>
-    </div>
+    <section class="navlink">
+        
+    </section>
 
 
 
@@ -57,13 +49,13 @@
 
 
     <footer>
-        <img class="ftimg" src="images/html_logo.png" alt="html logo">
-        <img class="ftimg" src="images/js_logo.png" alt="java script logo">
-        <img class="ftimg" src="images/css_logo.png" alt="css logo">
-    
-        <div class="foot" style="display: inline-block;">
-            <p class="foot">| HTML 5 | CSS 3 | JAVASCRIPT |</p>
-        </div>
+            <img class="ftimg" src="images/html_logo.png" alt="html logo">
+            <img class="ftimg" src="images/js_logo.png" alt="java script logo">
+            <img class="ftimg" src="images/css_logo.png" alt="css logo">
+
+            <div class="foot" style="display: inline-block;">
+                <p class="foot">| HTML 5 | CSS 3 | JAVASCRIPT |</p>
+            </div>
     </footer>
 </body>
 </html>
