@@ -17,12 +17,11 @@
     
     <!--style sheet info-->
     <meta name=‘viewport’ content="width=devicewidth, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/gallery.css"> <!---------------------------------gallery css file--------------------->
     <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/portfolio_mobile.css">
+    <!--<link rel="stylesheet" href="css/portfolio_mobile.css">-->
 
-    <!--javascript file-->
-    <script src="js/portfolio.js"></script>
-    
+
 </head>
 
 <body>
@@ -39,14 +38,168 @@
             <a href="portfolio_contact.html">Contact</a>
         </div>
     </nav>
-    <section class="navlink">
-        
-    </section>
+<br>
+    <!------------------------------------------------------main gallery code--------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------->
+    <h2 style="text-align:center">Slideshow Gallery</h2>
+    
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 13</div>
+            <img src="images/g1.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">2 / 13</div>
+            <img src="images/g2.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">3 / 13</div>
+            <img src="images/g3.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">4 / 13</div>
+            <img src="images/g4.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">5 / 13</div>
+            <img src="images/g5.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">6 / 13</div>
+            <img src="images/g6.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">7 / 13</div>
+            <img src="images/g7.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">8 / 13</div>
+            <img src="images/g8.jpg" style="width:100%">
+        </div>
 
+        <div class="mySlides">
+            <div class="numbertext">9 / 13</div>
+            <img src="images/g9.jpg" style="width:100%">
+        </div>
 
+        <div class="mySlides">
+            <div class="numbertext">10 / 13</div>
+            <img src="images/g10.jpg" style="width:100%">
+        </div>
 
+        <div class="mySlides">
+            <div class="numbertext">11 / 13</div>
+            <img src="images/g11.jpg" style="width:100%">
+        </div>
 
+        <div class="mySlides">
+            <div class="numbertext">12 / 13</div>
+            <img src="images/g12.jpg" style="width:100%">
+        </div>
 
+        <div class="mySlides">
+            <div class="numbertext">13 / 13</div>
+            <img src="images/g13.jpg" style="width:100%">
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+    
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/g1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Sunset">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/g2.jpg" style="width:100%" onclick="currentSlide(2)" alt="College life">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/g3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Vivrant clouds">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/g4.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Crops">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/g5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Beautiful artwork">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/g6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Rainy Vibe">
+            </div>
+    
+            <div class="column">
+                <img class="demo cursor" src="images/g7.jpg" style="width:100%" onclick="currentSlide(7)" alt="School life">
+            </div>
+    
+            <div class="column">
+                <img class="demo cursor" src="images/g8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Macro">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/g9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Delhi">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="images/g10.jpg" style="width:100%" onclick="currentSlide(10)" alt="Cloudy Beach">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="images/g11.jpg" style="width:100%" onclick="currentSlide(11)" alt="Scars">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="images/g12.jpg" style="width:100%" onclick="currentSlide(12)" alt="Big sea">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="images/g13.jpg" style="width:100%" onclick="currentSlide(13)" alt="Sun say's goodbye">
+            </div>
+        </div>
+    </div>
+    
+<!----------------------------------------gallery javascript----------------------------------------------------------------------->
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+    <!------------------------------------------------------main gallery code--------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------->
 
     <footer>
             <img class="ftimg" src="images/html_logo.png" alt="html logo">
