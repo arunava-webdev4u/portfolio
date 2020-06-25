@@ -6,7 +6,7 @@
     position: relative;
     }
     div.welcome>h1{                                           /*welcome heading*/
-    font-size: 5.5em;
+    font-size: 7em;
     font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     color: #ffffff;
     display: inline-block;
@@ -29,7 +29,7 @@
     display: inline-block;
     padding-left: 35px;
     float: left;
-    padding-top: 15%;
+    padding-top: 12%;
 }
 .topnav a {
     float: left;
@@ -52,13 +52,20 @@
   color: #ffffff;
 }
 
+/*2nd page*/
+h2{
+    font-size: 4.5em;
+}    
+p.txt_21{
+    display: inline-block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    color: #424141;
+}  
     
-    
-    
-    
-    
-    
-    
+/*2nd page*/    
     
     
     
@@ -74,8 +81,8 @@ div.txt_11{
     font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     color: #000000;
     position: absolute;
-    top: 2.5in;
-    font-size: 40px;
+    top: 720px;
+    font-size: 100px;
     text-align: center;
     width: 100%;
 }
