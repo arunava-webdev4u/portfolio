@@ -45,19 +45,20 @@ div.txt_11{
     font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     color: #000000;
     position: absolute;
-    top: 65%;
+    top: 2.5in;
     font-size: 40px;
     text-align: center;
     width: 100%;
 }
 div.txt_12{
-    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    display: none;
+    /*font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     color: #000000;
     position: absolute;
     top: 75%;
     font-size: 20px;
     text-align: center;
-    width: 100%;
+    width: 100%;*/
 }
 
     section.navlink{
