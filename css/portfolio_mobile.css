@@ -24,6 +24,32 @@
     }
     
     
+.topnav {                                           /*navigation menu*/
+    display: inline-block;
+    padding-left: 15px;
+    float: left;
+}
+.topnav a {
+    float: left;
+    color: #ffffff;
+    font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 2.5em;
+    transition-property: color, background;
+    transition-duration: 0.5s;
+}
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.topnav a.active {
+  background-color: #40dd46;
+  color: #ffffff;
+}
+
+    
     
     
     
