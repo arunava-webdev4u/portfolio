@@ -1,7 +1,72 @@
 @media screen and (max-width: 1080px){
-    img.navimg{
-        height: 1100px;
-        width: 100%;
-        opacity: 0.6;
+    nav{                                                /*navigation bar*/
+    background-color: #353535;
+    height: 600px;
+    width: 100%;
+    position: relative;
     }
+    div.welcome>h1{                                           /*welcome heading*/
+    font-size: 5.5em;
+    font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    color: #ffffff;
+    display: inline-block;
+    width: 70%;
+    height: 20%;
+    padding-left: 8%;
+    float: left;
+    }
+    img.mypic{
+    height: 20%;
+    width: 15%;
+    float: right;
+    padding-right: 4%;
+    padding-top: 3%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                                                /*body image*/
+
+img.navimg{
+    height: 1100px;
+    width: 100%;
+    opacity: 0.5;
+}                                           /*              text              */
+div.txt_11{
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    color: #000000;
+    position: absolute;
+    top: 110%;
+    font-size: 6.5em;
+    text-align: center;
+    width: 100%;
+}
+div.txt_12{
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    color: #000000;
+    position: absolute;
+    top: 140%;
+    font-size: 2.5em;
+    text-align: center;
+    width: 100%;
+}
+
+    section.navlink{
+    display: inline-block;
+    /*height: 400px;
+    width: 100%;
+    background-image: url(../images/background1.jpg);
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-size: cover;*/
+}
 }
