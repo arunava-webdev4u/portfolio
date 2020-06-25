@@ -24,17 +24,20 @@
     }
     
     
-.topnav {                                           /*navigation menu*/
+.topnav {     
+    align-self: center;                                      /*navigation menu*/
     display: inline-block;
-    padding-left: 15px;
+    padding-left: 35px;
     float: left;
+    padding-top: 15%;
 }
 .topnav a {
     float: left;
     color: #ffffff;
     font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
     text-align: center;
-    padding: 1em 2em;
+    padding: 20px 30px;
+    /*width: 100%;*/
     text-decoration: none;
     font-size: 2.5em;
     transition-property: color, background;
